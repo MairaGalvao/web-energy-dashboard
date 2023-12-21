@@ -48,3 +48,4 @@ pdfFiles.forEach(pdfFile => {
     const pdfFilePath = path.join(dataDirectory, pdfFile);
     extractAndPrintRelevantData(pdfFilePath);
 });
+module.exports = extractAndPrintRelevantData;
